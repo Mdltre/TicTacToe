@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navBar">
+        <div class="headercon">
+            <div class="heading">
+                <h1>Tic-Tac-Toe</h1>
+            </div>
+        </div>
+    </nav>
+    <div class="tictactoe">
+        <div class="innerContainer">
+            <div class="game">
+                <div class="imageContainer" id="winnerGifCont" style="display: none;">
+                    <div class="gifImg">
+                        <img src="./win.gif" alt="WINNER" draggable="false">
+                    </div>
+                </div>
+                <div class="boxContainer" id="boxCont1">
+                    <div class="box border-r border-b" id="box1">X</div>
+                    <div class="box border-r border-b" id="box2"></div>
+                    <div class="box border-b" id="box3"></div>
+                </div>
+                <div class="boxContainer" id="boxCont2">
+                    <div class="box border-r border-b" id="box4"></div>
+                    <div class="box border-r border-b" id="box5">O</div>
+                    <div class="box border-b" id="box6"></div>
+                </div>
+                <div class="boxContainer" id="boxCont3">
+                    <div class="box border-r" id="box7"></div>
+                    <div class="box border-r" id="box8"></div>
+                    <div class="box" id="box9"></div>
+                </div>
+                <div class="infocon">
+                    <div class="info">
+                        <span id="showInfo">Turn: x</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

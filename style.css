@@ -73,18 +73,6 @@ body {
     height: auto;
 }
 
-.tictactoe .innerContainer .game .imageContainer .gifImg {
-    padding: 3px;
-    width: fit-content;
-    height: auto;
-}
-
-.tictactoe .innerContainer .game .imageContainer .gifImg img {
-    width: 150px;
-    height: auto;
-    transition: all 0.5s;
-}
-
 .tictactoe .innerContainer .game .boxContainer {
     display: flex;
     flex-direction: row;

@@ -20,19 +20,14 @@
     <div class="tictactoe">
         <div class="innerContainer">
             <div class="game">
-                <div class="imageContainer" id="winnerGifCont" style="display: none;">
-                    <div class="gifImg">
-                        <img src="./win.gif" alt="WINNER" draggable="false">
-                    </div>
-                </div>
                 <div class="boxContainer" id="boxCont1">
-                    <div class="box border-r border-b" id="box1">X</div>
+                    <div class="box border-r border-b" id="box1" onclick="turnCount()"></div>
                     <div class="box border-r border-b" id="box2"></div>
                     <div class="box border-b" id="box3"></div>
                 </div>
                 <div class="boxContainer" id="boxCont2">
                     <div class="box border-r border-b" id="box4"></div>
-                    <div class="box border-r border-b" id="box5">O</div>
+                    <div class="box border-r border-b" id="box5"></div>
                     <div class="box border-b" id="box6"></div>
                 </div>
                 <div class="boxContainer" id="boxCont3">
@@ -42,12 +37,15 @@
                 </div>
                 <div class="infocon">
                     <div class="info">
-                        <span id="showInfo">Turn: x</span>
+                        <span id="showInfo">Turn: </span>
+                        <span id="infoNum"> </span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
